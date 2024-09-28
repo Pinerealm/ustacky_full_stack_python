@@ -1,8 +1,8 @@
 :root {
-  --off-white: #ffe9d6;
-  --light-brown: #ffcd9e;
-  --light-yellow: #ff9a3d;
-  --yellow: #ff7a00;
+  --light-peach: #ffe9d6;
+  --peach: #ffcd9e;
+  --orange: #ff9a3d;
+  --bright-orange: #ff7a00;
   --red: #ff0000;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 #intro {
-  background-color: var(--light-brown);
+  background-color: var(--peach);
 }
 
 .top-bar {
@@ -30,7 +30,7 @@ body {
 
 .cart-logo {
   color: white;
-  background-color: var(--light-yellow);
+  background-color: var(--orange);
   border-radius: 25% / 50%;
   padding: 2px 22px;
   display: flex;
@@ -66,7 +66,7 @@ li a {
   justify-content: space-evenly;
   align-items: center;
   font-size: 2rem;
-  color: var(--yellow);
+  color: var(--bright-orange);
   text-transform: uppercase;
 }
 
@@ -81,7 +81,7 @@ li a {
 }
 
 #intro button {
-  background-color: var(--light-yellow);
+  background-color: var(--orange);
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
