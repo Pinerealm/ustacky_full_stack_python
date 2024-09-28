@@ -4,6 +4,22 @@
   --orange: #ff9a3d;
   --bright-orange: #ff7a00;
   --red: #ff0000;
+
+  --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.6rem;
+  --font-size-large: 1.8rem;
+  --font-size-x-large: 3.2rem;
+  --font-size-xx-large: 4.8rem;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 * {
@@ -14,7 +30,19 @@
 body {
   height: 100vh;
   margin: 0;
-  /* overflow: hidden; */
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
 }
 
 #intro {
@@ -36,7 +64,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 32px;
+  font-size: var(--font-size-x-large);
 }
 
 .cart-logo span {
@@ -58,14 +86,15 @@ li {
 li a {
   text-decoration: none;
   color: black;
-  font-size: 1.4rem;
+  font-size: 2.2rem;
 }
 
 .hero {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 2rem;
+  margin-top: -10px;
+  font-size: var(--font-size-x-large);
   color: var(--bright-orange);
   text-transform: uppercase;
 }
@@ -85,6 +114,8 @@ li a {
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
-  font-size: 1.2rem;
+  width: 19%;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
   text-transform: uppercase;
 }
